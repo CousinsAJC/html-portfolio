@@ -2,6 +2,8 @@ html{
   background-color: antiquewhite;
 }
 a{
+}
+a:link{
   color: green;
   hover: green;
 }
