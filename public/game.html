@@ -2,9 +2,17 @@
   <head>
     <title>Solitaire</title>
 
-    <canvas width="800" height="600">Game canvas for solitaire game</canvas>
+    <canvas id="gameCanvas" width="800" height="600">Game canvas for solitaire game</canvas>
     <script>
-      
+      var canvas;
+      var canvasContext; 
+
+      window.onload = function() {
+        console.log("Begin Solitaire")
+        canvas = document.getElementById('gameCanvas');
+        canvasContext = canvas.getContext('2d');
+        canvasContext.fillStyle = 'black';
+        canvasContext.fillRect(0, 0, canvas.width, canvas.height)
     </script>
     
   </head>
