@@ -5,6 +5,7 @@ a{
 }
 a:link{
   color: green;
-  hover: purple;
 }
-
+a:active{
+  color:purple;
+}
